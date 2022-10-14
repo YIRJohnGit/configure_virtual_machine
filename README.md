@@ -22,7 +22,9 @@ _If you are not able to see the Menu Option (Refer the above image) in the VB, P
 
   Step 2.2 - Go to the Terminal and find the media drive
 ```
-cd /media<user name>VBox_GAs_6.1.38/
+cd /media/ubuntu/VBox_GAs_6.1.38/
+```
+```
 ./autorun.sh
 ```
 _**Note:** Please follow on screen instruction to complete the activity and restart the machine and enter the password when prompted_
@@ -45,7 +47,7 @@ _**Note:** Please follow on screen instruction to complete the activity and rest
   ```
   _add the below to the line in the file and save (Refer Below Image)_
   ```
-  i8042.nomux i8024.noloop"
+  i8042.nomux i8024.noloop
   ```
   Change this line <this is default>
   ![image](https://user-images.githubusercontent.com/111234771/194801063-99d1174a-185d-43ca-9c26-3c5c9b51dd18.png)

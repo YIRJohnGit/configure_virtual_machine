@@ -21,14 +21,24 @@ _If you are not able to see the Menu Option (Refer the above image) in the VB, P
     ![image](https://user-images.githubusercontent.com/111234771/194799121-218869db-788d-4313-9675-7323922c6359.png)
 
   Step 2.2 - Go to the Terminal and find the media drive
+  ```
+  df
+  ```
+  _Verify the Folder Structure_
+  ![image](https://user-images.githubusercontent.com/111234771/198995283-46ea5212-ba26-46ce-bce9-63e1878a2652.png)
+
 ```
-cd /media/ubuntu/VBox_GAs_6.1.38/
+cd /media/ubuntu/VBox_GAs_6.1.40/
 ```
+_Result: Verify the Folder_
+![image](https://user-images.githubusercontent.com/111234771/198995049-1bb99d09-487b-4b8e-9de7-bbc7151f112f.png)
+
 ```
 ./autorun.sh
 ```
 _**Note:** Please follow on screen instruction to complete the activity and restart the machine and enter the password when prompted_
     ![image](https://user-images.githubusercontent.com/111234771/194799459-c2521a83-1fe5-479e-a40e-9e62c47c4f60.png)
+
 
   _Once Completed you will get the screen as shown below image_
   ![image](https://user-images.githubusercontent.com/111234771/194807750-7421ab4e-b902-45c9-8191-37e288117711.png)

@@ -70,7 +70,6 @@ _**Note:** Please follow on screen instruction to complete the activity and rest
     ![image](https://user-images.githubusercontent.com/111234771/194801191-0a4d7317-ea9a-4fd3-82fd-b255e8bca28e.png)
   ```
   sudo shutdown now	
-
   ```
 
   # Troubleshooting on Hostname Issue #

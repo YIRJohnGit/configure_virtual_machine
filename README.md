@@ -63,10 +63,12 @@ _**Note:** Please follow on screen instruction to complete the activity and rest
   Make the change in the specified Line
   ![image](https://user-images.githubusercontent.com/111234771/194801256-5c82d91e-fbce-41e5-8d65-5a3a747f9b22.png)
 
-  ![image](https://user-images.githubusercontent.com/111234771/194801191-0a4d7317-ea9a-4fd3-82fd-b255e8bca28e.png)
-
   ```
   sudo update-grub
+  ```
+  _Result_
+    ![image](https://user-images.githubusercontent.com/111234771/194801191-0a4d7317-ea9a-4fd3-82fd-b255e8bca28e.png)
+  ```
   sudo shutdown now	
 
   ```

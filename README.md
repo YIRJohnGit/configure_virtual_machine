@@ -31,9 +31,6 @@ _If you are not able to see the Menu Option (Refer the above image) in the VB, P
 ```
 cd /media/ubuntu/VBox_GAs_6.1.40/
 ```
-_Result: Verify the Folder_
-![image](https://user-images.githubusercontent.com/111234771/198995049-1bb99d09-487b-4b8e-9de7-bbc7151f112f.png)
-
 ```
 ./autorun.sh
 ```

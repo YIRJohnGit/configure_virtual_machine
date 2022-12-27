@@ -61,8 +61,9 @@ _**Note:** Please follow on screen instruction to complete the activity and rest
   Change this line <this is default>
   ![image](https://user-images.githubusercontent.com/111234771/194801063-99d1174a-185d-43ca-9c26-3c5c9b51dd18.png)
 
-  Make the change in the specified Line
-  ![image](https://user-images.githubusercontent.com/111234771/194801256-5c82d91e-fbce-41e5-8d65-5a3a747f9b22.png)
+  Make the change in the specified Line (Changes in Line No. 10)
+ ![image](https://user-images.githubusercontent.com/111234771/209621957-88fa99fd-9748-4a9e-a98d-eecea50419ab.png)
+
 
   ```
   sudo update-grub

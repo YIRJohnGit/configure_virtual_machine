@@ -64,7 +64,12 @@ _**Note:** Please follow on screen instruction to complete the activity and rest
   Make the change in the specified Line (Changes in Line No. 10)
  ![image](https://user-images.githubusercontent.com/111234771/209621957-88fa99fd-9748-4a9e-a98d-eecea50419ab.png)
 
-
+***Or Inline Command***
+```
+sudo sed -i '/GRUB_CMDLINE_LINUX_DEFAULT="quiet splash"/ s/"$/ i8042.nomux i8024.noloop"/' /etc/default/grub
+sudo sed -i '/GRUB_CMDLINE_LINUX=""/d' /etc/default/grub
+```
+  
   ```
   sudo update-grub
   ```

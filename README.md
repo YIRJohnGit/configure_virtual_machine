@@ -94,3 +94,21 @@ sudo sed -i '/GRUB_CMDLINE_LINUX=""/d' /etc/default/grub
   hostname
   exec bash
 ```
+
+**OR**
+```
+# Get the local IP address
+local_ip=$(hostname -I | awk '{print $2}')
+
+# Replace dot with dash in local IP
+local_ip=${local_ip//./-}
+
+# Set the hostname with the local IP address
+sudo hostnamectl set-hostname "$local_ip"
+
+# Update the /etc/hosts file with the new hostname
+sudo cp /etc/hosts /etc/hosts_bak_$(date +"%Y%m%d-%H%M%S")
+sudo sed -i "s/127.0.1.1.*/127.0.1.1\t$local_ip/g" /etc/hosts
+hostname
+exec bash
+```

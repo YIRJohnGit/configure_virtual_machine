@@ -79,6 +79,13 @@ sudo sed -i '/GRUB_CMDLINE_LINUX=""/d' /etc/default/grub
   sudo shutdown now	
   ```
 
+  #### Changing View Resolution ####
+  - The dafult (May be)
+![image](https://github.com/user-attachments/assets/c59fdf65-3973-4b9a-849b-0816f3d06853)
+  - Change the setting
+![image](https://github.com/user-attachments/assets/39c8a2c9-8c8e-44ea-8a1f-861045e4e670)
+
+  
   # Troubleshooting on Hostname Issue #
   
   ```
